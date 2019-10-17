@@ -15,4 +15,4 @@ Bundler::GemHelper.install_tasks
 require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new(:spec)
 
-task default: %w(app:test:prepare spec)
+task default: %w(db:test:prepare spec)

@@ -8,7 +8,7 @@ feature 'Article localization features', :js do
     login_user(current_user)
   end
 
-  scenario 'Create an article' do
+  scenario 'Create an article', :js do
 
     my_title = 'A new article title'
     my_body = 'Something interesting to say'
